@@ -1,0 +1,36 @@
+//***** CMD *****//
+--------------------------------------
+//**LISTAR**//
+[dir
+--------------------------------------
+//**NAVEGAR ENTRE AS PASTAS**//
+[cd /
+[cd nomeDaPasta
+[dir (mostra as pastas dentro da nomeDaPasta)
+--------------------------------------
+//**E PARA VOLTAR?**//
+[cd .. (volta um nivel)
+--------------------------------------
+//**LIMPAR TELA**//
+[cls
+[ctrl+l (no git bash)
+--------------------------------------
+//**AUTO COMPLETAR**//
+TAB
+--------------------------------------
+//**CRIAR PASTA**//
+[mkdir (workspace)nomeDaPasta
+--------------------------------------
+//**COMANDO ECHO**//
+[echo hello (vai retornar "hello" no terminal)
+[echo hello > hello.txt (criar um arquivo txt escrito "hello dentro"
+--------------------------------------
+//**DELETAR OS ARQUIVOS DENTRO DA PASTA**//
+[del workspace
+--------------------------------------
+//**DELETAR UMA PASTA**//
+[rmdir workspace /S /Q
+--------------------------------------
+//**MOVER ARQUIVOS**//
+[mv strogonoff.md ./receitas/
+--------------------------------------
